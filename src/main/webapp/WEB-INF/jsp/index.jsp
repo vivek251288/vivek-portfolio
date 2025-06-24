@@ -5,112 +5,114 @@
     <head>
         <title>JioCoders | Portfolio</title>
         <style>
-            body {
-                font-family: 'Segoe UI', sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f5f7fa;
-            }
+           <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+        }
 
-            header,
-            footer {
-                background-color: #007bff;
-                color: white;
-                padding: 20px 0;
-                text-align: center;
-            }
+        header,
+        footer {
+            background-color: #ffc0cb; /* Light pink */
+            color: #333; /* Dark text for better contrast */
+            padding: 20px 0;
+            text-align: center;
+        }
 
-            footer {
-                font-size: 14px;
-            }
+        footer {
+            font-size: 14px;
+        }
 
-            .container {
-                max-width: 960px;
-                margin: 30px auto;
-                background: white;
-                padding: 30px;
-                border-radius: 10px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
+        .container {
+            max-width: 960px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-            .profile {
-                text-align: center;
-            }
+        .profile {
+            text-align: center;
+        }
 
-            .avatar {
-                width: 140px;
-                height: 140px;
-                border-radius: 50%;
-                border: 4px solid #007bff;
-                object-fit: cover;
-                display: block;
-                margin: 0 auto;
-            }
+        .avatar {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid #ffc0cb;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
 
-            h1 {
-                margin-top: 15px;
-                color: #007bff;
-            }
+        h1 {
+            margin-top: 15px;
+            color: #d63384; /* Dark pink title */
+        }
 
-            h2 {
-                border-bottom: 2px solid #eee;
-                padding-bottom: 5px;
-                color: #444;
-            }
+        h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            color: #444;
+        }
 
-            .section {
-                margin-top: 30px;
-            }
+        .section {
+            margin-top: 30px;
+        }
 
-            .skills,
-            .availability {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 10px;
-                margin-top: 10px;
-            }
+        .skills,
+        .availability {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
 
-            .tag {
-                background: #007bff;
-                color: white;
-                padding: 6px 12px;
-                border-radius: 5px;
-                font-size: 14px;
-            }
+        .tag {
+            background: #ffc0cb;
+            color: #333;
+            padding: 6px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
 
-            .project {
-                margin-bottom: 20px;
-            }
+        .project {
+            margin-bottom: 20px;
+        }
 
-            .project-title {
-                font-weight: bold;
-                font-size: 16px;
-                margin-bottom: 5px;
-            }
+        .project-title {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
 
-            .location-box {
-                font-size: 15px;
-                color: #333;
-                margin-top: 8px;
-            }
-        </style>
-    </head>
+        .location-box {
+            font-size: 15px;
+            color: #333;
+            margin-top: 8px;
+        }
+    </style>
+</head>
 
-    <body>
+<body>
 
         <header>
             <h1>JioCoders Portfolio</h1>
-            <p>Sr. Software Engineer @ HCL Info Pvt Ltd</p>
+            <p>Sr. Software Engineer @ Pinnacle Digital Analytics Pvt.Ltd</p>
         </header>
 
         <div class="container">
             <div class="profile">
                 <!-- <img class="avatar" src="https://i.pravatar.cc/300?img=12" alt="JioCoders Avatar"> -->
-                <img class="avatar" src="/images/jiocoders.png" alt="JioCoders Avatar">
-                <h1>JioCoders</h1>
+                <img class="avatar" src="/images/vivek.jpeg" alt="JioCoders Avatar">
+              <!--   <h1>JioCoders</h1> --> 
+               <h2>Vivek Pandey</h2>
                 <div class="location-box">
-                    📍 Current: <strong>Mumbai</strong> | Preferred: <strong>Delhi NCR</strong><br />
-                    🧑‍💼 8 Years Experience | 🎓 MCA | 📍 Prayagraj, Uttar Pradesh
+                    📍 Current: <strong>Delhi NCR</strong> | Preferred: <strong>Delhi NCR,Noida and Gurgaon</strong><br />
+                    🧑‍💼 5 Years Experience | 🎓 MCA | 📍 Ayodhya, Uttar Pradesh
                 </div>
             </div>
 
@@ -124,16 +126,18 @@
             <div class="section">
                 <h2>Skills</h2>
                 <div class="skills">
+                    <div class="tag">J2SE </div>
+                    <div class="tag">J2EE </div>
                     <div class="tag">Spring Boot</div>
-                    <div class="tag">Java</div>
+                     <div class="tag">Spring Security</div>
+                       <div class="tag">JWT</div>
                     <div class="tag">Microservices</div>
-                    <div class="tag">Kotlin</div>
-                    <div class="tag">Flutter</div>
-                    <div class="tag">Dart</div>
-                    <div class="tag">Swift</div>
+                    <div class="tag">MongoDB</div>
+                    <div class="tag">Git hub</div>
+                    <div class="tag">Apache tomcat</div>
+                    <div class="tag">PostgreSQL</div>
                     <div class="tag">DevOps</div>
                     <div class="tag">CI/CD</div>
-                    <div class="tag">Agile</div>
                     <div class="tag">Team Leadership</div>
                 </div>
             </div>
@@ -148,7 +152,7 @@
                 </ul>
             </div>
 
-            <div class="section">
+         <!--   <div class="section">
                 <h2>Projects – Spring Boot</h2>
                 <div class="project">
                     <div class="project-title">🚗 Car Management System</div>
@@ -164,6 +168,30 @@
                     <p>Robust Spring Boot backend for orders, payments, product catalog. Completion: 1 year.</p>
                 </div>
             </div>
+             --> 
+              <div class="section">
+                 <h2>Projects – Spring Boot</h2>
+                 <div class="project">
+                 <div class="project-title">💼 New Jobs.ai (Job Marketplace)</div>
+                 <p>Spring Boot-based job portal backend handling user authentication, job postings, applications, and admin controls. Completion: 1 year.</p>
+             </div>
+
+            <div class="project">
+                   <div class="project-title">🛡️ Integrated Claim Monitoring System</div>
+                    <p>Microservice architecture for real-time claim tracking, fraud detection, and report generation in the insurance sector. Completion: 1 year.</p>
+                </div>
+
+            <div class="project">
+                  <div class="project-title">🕒 Time Management System</div>
+                  <p>Spring Boot REST API backend to manage tasks, time logs, productivity metrics, and notifications. Completion: 1 year.</p>
+                </div>
+
+            <div class="project">
+                <div class="project-title">🐟 NFDP (National Fisheries Digital Platform)</div>
+               <p>Government-focused platform to digitalize fisheries data, user registrations, and supply chain insights using Spring Boot. Completion: 1 year.</p>
+               </div>
+              </div>
+              
 
             <div class="section">
                 <h2>Projects – Flutter & Mobile</h2>
