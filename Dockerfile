@@ -6,7 +6,7 @@ RUN mvn clean package -DskipTests
 
 # Use Tomcat to run the WAR
 FROM tomcat:9.0
-COPY --from=builder /app/target/*.war /usr/local/tomcat/webapps/ROOT.war
+COPY --from=builder /app/target/*.jar /usr/local/tomcat/webapps/ROOT.jar
 
 # Expose port 8080
 EXPOSE 8080
