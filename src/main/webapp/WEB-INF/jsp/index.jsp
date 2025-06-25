@@ -2,10 +2,9 @@
     <!DOCTYPE html>
     <html>
 
-    <head>
-        <title>JioCoders | Portfolio</title>
-        <style>
-           <style>
+   <head>
+    <title>JioCoders | Portfolio</title>
+    <style>
         body {
             font-family: 'Segoe UI', sans-serif;
             margin: 0;
@@ -15,8 +14,8 @@
 
         header,
         footer {
-            background-color: #ffc0cb; /* Light pink */
-            color: #333; /* Dark text for better contrast */
+            background-color: #cce5ff; /* Light blue */
+            color: #003366; /* Dark blue for contrast */
             padding: 20px 0;
             text-align: center;
         }
@@ -42,7 +41,7 @@
             width: 140px;
             height: 140px;
             border-radius: 50%;
-            border: 4px solid #ffc0cb;
+            border: 4px solid #cce5ff; /* Match header/footer */
             object-fit: cover;
             display: block;
             margin: 0 auto;
@@ -50,7 +49,7 @@
 
         h1 {
             margin-top: 15px;
-            color: #d63384; /* Dark pink title */
+            color: #004085; /* Official dark blue */
         }
 
         h2 {
@@ -72,8 +71,8 @@
         }
 
         .tag {
-            background: #ffc0cb;
-            color: #333;
+            background: #cce5ff; /* Light blue tag background */
+            color: #003366;
             padding: 6px 12px;
             border-radius: 5px;
             font-size: 14px;
@@ -99,15 +98,18 @@
 
 <body>
 
-        <header>
-            <h1>JioCoders Portfolio</h1>
-            <p>Sr. Software Engineer @ Pinnacle Digital Analytics Pvt.Ltd</p>
-        </header>
-
+    <header>
+        <h1>JavaCoders Portfolio</h1>
+        <p>Sr. Software Engineer @ Pinnacle Digital Analytics Pvt.Ltd</p>
+    </header>
+   
         <div class="container">
             <div class="profile">
                 <!-- <img class="avatar" src="https://i.pravatar.cc/300?img=12" alt="JioCoders Avatar"> -->
-                <img class="avatar" src="/images/vivek.jpeg" alt="JioCoders Avatar">
+              <!--    <img class="avatar" src="/images/vivek.jpeg" alt="JioCoders Avatar"> -->
+             <img class="avatar" src="${pageContext.request.contextPath}/images/vivek.jpeg" alt="JioCoders Avatar">
+                
+                
               <!--   <h1>JioCoders</h1> --> 
                <h2>Vivek Pandey</h2>
                 <div class="location-box">
