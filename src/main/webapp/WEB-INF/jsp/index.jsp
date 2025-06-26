@@ -210,7 +210,7 @@
 
             <div class="section">
                 <h2>Education</h2>
-                <p><strong>Master of Computer Applications (MCA)</strong></p>
+                <p><strong>MCA (SDE Stream)</strong></p>
             </div>
 
             <div class="section">
