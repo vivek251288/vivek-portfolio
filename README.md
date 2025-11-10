@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 vivek portfolio
 =======
-<h1>JioCoders</h1>
-                    📍 Current: <strong>Mumbai</strong> | Preferred: <strong>Delhi NCR</strong><br />
-                    🧑‍💼 8 Years Experience | 🎓 MCA | 📍 Prayagraj, Uttar Pradesh
+<h1>JavaCoders</h1>
+                    📍 Current: <strong>Delhi</strong> | Preferred: <strong>Delhi NCR</strong><br />
+                    🧑‍💼 5.5+ Years Experience | 🎓 MCA | 📍 Lucknow, Uttar Pradesh
 
                 <h2>Objective</h2>
 
