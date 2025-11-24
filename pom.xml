@@ -29,6 +29,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+<<<<<<< HEAD
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
     <artifactId>tomcat-embed-jasper</artifactId>
@@ -39,6 +40,9 @@
     <artifactId>jakarta.servlet-api</artifactId>
     <scope>provided</scope>
 </dependency>
+=======
+
+>>>>>>> 12cc186b1f810bfd7db49ca12a3619595600a5ca
         <!-- For WAR deployment -->
        <!-- <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -50,23 +54,30 @@
     		<groupId>org.springframework.boot</groupId>
     		<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+<<<<<<< HEAD
    <!-- Swagger / OpenAPI 3 -->
   <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
     <version>2.6.0</version>
    </dependency>
+=======
+
+>>>>>>> 12cc186b1f810bfd7db49ca12a3619595600a5ca
         <!-- Optional: for actuator -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+<<<<<<< HEAD
         <!-- Swagger / OpenAPI 3 -->
   <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
     <version>2.6.0</version>
   </dependency>
+=======
+>>>>>>> 12cc186b1f810bfd7db49ca12a3619595600a5ca
 
         <!-- For unit testing -->
         <dependency>
